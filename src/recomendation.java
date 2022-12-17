@@ -19,7 +19,7 @@ public class recomendation extends JFrame {
         add(welcome_statement);
         add(proceed_word);
         proceed_word.addActionListener(this::actionPerformed);
-        setLayout(new GridLayout(4, 1));
+        setLayout(new GridLayout(4, 2));
         setTitle("Menu ");
         setSize(400, 400);
         getContentPane().setBackground(Color.magenta);
